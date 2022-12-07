@@ -372,6 +372,7 @@ var wrld = {
   map: 'world_mill_en',
   normalizeFunction: 'polynomial',
   regionStyle: regionStyling,
+  zoomOnScroll:false,
   backgroundColor: '#22313F',
   series: {
     regions: [{
