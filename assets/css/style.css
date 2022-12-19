@@ -2775,15 +2775,24 @@ img.testimonial-thumb {
 }
 .team-slide .carousel-control {
   position: absolute;
-  bottom: 0;
-  left: 50%;
+  bottom: -6%;
+  left: 49%;
   border: 0;
-  background-color: #ddd;
-  height: 37px;
-  width: 37px;
-  border-radius: 4px;
+  /* background-color: #ddd; */
+  height: 60px;
+  width: 52px;
+  /* border-radius: 4px; */
   transition: 0.3s;
   z-index: 6;
+  padding: 10px !important;
+
+
+  background-color: #e68220;
+  font-size: 20px;
+  padding:0px 20px 5px;
+  border-radius:10px;
+  color: white; 
+  text-align: center;
 }
 .team-slide .carousel-control:hover {
   background-color: #e68220;
@@ -2793,7 +2802,7 @@ img.testimonial-thumb {
   transform: translateX(calc(-50% - 25px));
 }
 .team-slide .carousel-control.right {
-  transform: translateX(calc(-50% + 25px));
+  transform: translateX(calc(-50% + 61px));
 }
 .team-slide .carousel-control.slick-disabled {
   opacity: 0.4;
@@ -3466,7 +3475,7 @@ label {
 .single-project .owl-nav .owl-next span{
   background-color: #e68220;
   font-size: 40px;
-  padding:0px 20px 5px;
+  padding:0px 20px 10px;
   border-radius:10px;
   color: white; 
   text-align: center;
