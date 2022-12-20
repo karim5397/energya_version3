@@ -3504,7 +3504,7 @@ label {
 
 }
 .services .box .content{
-  background-color: #d80d07;
+  background-color: #e68220;
 }
 .services .box .entry-title:hover a{
   color:#e68220;
@@ -3730,3 +3730,4 @@ min-height: 750px;
 .dark{
   color: #153c89 !important;
 }
+
