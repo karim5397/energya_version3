@@ -2,6 +2,10 @@
 
 jQuery(function ($) {
 	'use strict';
+	
+	$(window).on('load', function() {
+		$('.preloader-wrapper').fadeOut();
+	});
 
 	/* ----------------------------------------------------------- */
 	/*  Fixed header
@@ -32,6 +36,8 @@ jQuery(function ($) {
 			}
 		}
 		fixedHeader();
+
+
 
 
 		// Count Up
@@ -412,8 +418,14 @@ if ($('#world-map').length > 0) {
 
 }) // End - $(document).ready...
 
-
-/* Function for showing products name*/
+// video page
+ $('.play-video-custom').magnificPopup({
+	type: 'iframe',
+	mainClass: 'mfp-fade',
+	removalDelay: 160,
+	preloader: false,
+	fixedContentPos: false
+});
 
 
 
