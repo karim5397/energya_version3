@@ -370,7 +370,7 @@ $('.single-project').owlCarousel({
 
 AOS.init({
 	delay: 500, 
-	duration: 1000, 
+	duration: 5000, 
 
 });
 
@@ -418,14 +418,6 @@ if ($('#world-map').length > 0) {
 
 }) // End - $(document).ready...
 
-// video page
- $('.play-video-custom').magnificPopup({
-	type: 'iframe',
-	mainClass: 'mfp-fade',
-	removalDelay: 160,
-	preloader: false,
-	fixedContentPos: false
-});
 
 
 
